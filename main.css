@@ -1,0 +1,1062 @@
+/* ------------------------- Main Content ------------------------------ */
+
+.html {
+     background: white;
+}
+
+body {
+     font-family: Oswald;
+     margin: 0;
+     line-height: 1.42857143;
+}
+
+section {
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 20px;
+     margin-bottom: 100px;
+}
+
+h1 {
+     color: white;
+     text-shadow: 2px 2px 4px #000000;
+     margin: 0px;
+     font-size: 40pt;
+}
+
+h2 {
+     margin: 0;
+     padding-top: 6%;
+}
+
+.background {
+     margin: 0;
+}
+
+.container {
+     width: 80%;
+     height: 100%;
+     margin: 50px auto 50px;
+     margin-bottom: 100px;
+     background: #eeeff1;
+     padding: 10px 20px;
+     text-align: center;
+     font-family: Oswald;
+     font-size: 25px;
+     color: #34495E;
+}
+
+#enter {
+     font-size: 1.5rem;
+     font-family: Oswald;
+     text-transform: uppercase;
+     color: white;
+     margin-left: 1rem;
+     padding: 1rem 1rem 1rem 1rem;
+     background-color: #3399FF;
+     border: 1px black;
+     border-radius: 5px;
+     cursor: pointer;
+}
+
+#present, #absent, #start_questions, #next, #submit, #moreQuestions, #checkAnother {
+     text-align: center;
+     font-size: 12pt;
+     font-family: Oswald;
+     margin: 3px;
+     border-radius: 5px;
+     cursor: pointer;
+     background-color: #77abec;
+}
+
+#info_submit {
+     border-style: solid;
+     font-size: 12pt;
+     margin-bottom: 10px;
+     height: 56px;
+     border-radius: 5px;
+     text-transform: uppercase;
+     color: #080707;
+     cursor: pointer;
+}
+
+#introduction {
+     text-align: center;
+}
+
+#section_explanation {
+     margin-left: 50px;
+     margin-right: 50px;
+     color: #3399FF;
+}
+
+#welcome {
+     margin-top: 3%;
+     box-sizing: border-box;
+     display: block;
+}
+
+.bar {
+     opacity: 0.5;
+     background: black;
+}
+
+.onTop {
+     padding: 30px;
+     position: relative;
+     z-index: 2;
+     background: rgba(0, 0, 0, 0.45)
+}
+
+.intro_text {
+     height: 1000px;
+     background-image: url(/images/background.jpeg);
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     font-size: 30px;
+}
+
+.hidden {
+     display: none;
+}
+
+.highlight {
+     background-color: #b8e4df;
+}
+
+.question {
+     border: 1px solid #1F497D;
+     margin: 10px;
+     margin-left: 50px;
+     margin-right: 50px;
+     margin-bottom: 30px;
+     padding-bottom: 15px;
+     border-radius: 5px;
+}
+
+.information {
+     display: block;
+     margin-bottom: 10px;
+     text-align: center;
+}
+
+input:-webkit-autofill {
+     background-color: white !important;
+}
+
+
+#banner{
+     color:white;
+}
+
+/* ---- Text----- */
+
+.bold {
+     font-weight: bold;
+     font-size: 14pt;
+}
+
+.color {
+     color: red;
+}
+
+#symptoms {
+     border-style: solid;
+     border-color: #BDC3C7;
+     padding-left: 10px;
+     font-size: 10pt;
+     width: 50%;
+     height: 50px;
+     margin-bottom: 20px;
+     border-radius: 5px;
+}
+
+#patient_age {
+     border-style: solid;
+     border-color: #BDC3C7;
+     padding-left: 10px;
+     font-size: 10pt;
+     margin-bottom: 10px;
+     height: 50px;
+     border-radius: 5px;
+}
+
+.about-text h2 {
+     line-height: 45px;
+     font-size: 40px;
+     margin-bottom: 0;
+}
+
+.about-text p {
+     font-size: 20px;
+     line-height: 35px;
+     margin-bottom: 2px;
+}
+
+.about-text {
+     margin-left: 25px;
+     margin-right: 25px;
+     display: inline-block;
+     width: 45%;
+     position: relative;
+}
+
+.about-img {
+     display: inline-block;
+     width: 45%;
+     float: right;
+     margin-top: 40px;
+}
+
+.data {
+     width: 423px;
+     height: 423px;
+}
+
+.anonymous-img {
+     display: inline-block;
+     width: 60%;
+     float: left;
+     padding-right: 50px;
+}
+
+.anonymous-text {
+     display: inline-block;
+     width: 35%;
+     position: relative;
+}
+
+.anonymous-text p {
+     font-size: 20px;
+     line-height: 35px;
+     margin-bottom: 2px;
+}
+
+.anonymous-text h2 {
+     line-height: 45px;
+     font-size: 40px;
+     margin-bottom: 0;
+}
+
+user agent stylesheet
+/* ---------------------------------- Fieldset----------------------------------- */
+
+fieldset {
+     margin: 20px;
+     font-family: Oswald;
+     border: 1px solid #1F497D;
+     border-radius: 5px;
+}
+
+legend {
+     text-align: left;
+     background: #77abec;
+     color: #0c0c0c;
+     padding: 5px 10px;
+     font-size: 15px;
+     border-radius: 5px;
+     box-shadow: 0 0 0 1px #1F497D;
+}
+
+label {
+     text-align: right;
+     width: 10%;
+     margin-right: 10px;
+     margin-left: 10px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     font-weight: bold;
+}
+
+.select {
+     text-align: center;
+     width: 100px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+}
+
+input[type="radio"] {
+     display: inline-flex;
+}
+
+#symtomLabel {
+     text-align: left;
+     ;
+}
+
+#select {
+     color: grey;
+     border: 2px solid #BDC3C7;
+     height: 57px;
+     width: 130px;
+     padding-left: 10px;
+     font-size: 10pt;
+     background: white;
+     -webkit-border-radius: 5px;
+}
+
+.inputfield {
+     margin-top: 30px;
+     padding-top: 30px;
+     margin-left: auto;
+     margin-right: auto;
+     width: 60%;
+}
+
+
+/* ---------------------------------- Accordian----------------------------------- */
+
+.accordian .transition, .accordian .artlist, .accordian ul li i:before, .accordian ul li i:after {
+     transition: all 0.25s ease-in-out;
+}
+
+.accordian .no-select, .accordian h2 {
+     -webkit-tap-highlight-color: transparent;
+     -webkit-touch-callout: none;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+}
+
+.accordian h3 {
+     letter-spacing: 1px;
+     display: block;
+     margin: 0;
+     cursor: pointer;
+}
+
+.accordian .artlist {
+     font-size: 20px;
+     position: relative;
+     overflow: hidden;
+     max-height: 800px;
+     opacity: 1;
+     transform: translate(0, 0);
+     margin: 0;
+     margin: 14px 0;
+     z-index: 2;
+}
+
+.accordian ul {
+     list-style: none!important;
+     perspective: 900;
+     padding: 0;
+     margin: 0;
+}
+
+.accordian ul li {
+     position: relative;
+     padding: 0;
+     margin: 0;
+     padding: 10px 0;
+     border-top: 1px solid #dce7eb;
+}
+
+.accordian ul li:nth-of-type(1) {
+     animation-delay: 0.5s;
+     border-top: none;
+}
+
+.accordian ul li:nth-of-type(2) {
+     animation-delay: 0.75s;
+}
+
+.accordian ul li:nth-of-type(3) {
+     animation-delay: 1s;
+}
+
+.accordian ul li:last-of-type {
+     padding-bottom: 0;
+}
+
+.accordian ul li i {
+     position: absolute;
+     transform: translate(-6px, 0);
+     margin-top: 3px;
+     right: 0;
+}
+
+.accordian ul li i:before, ul li i:after {
+     content: "";
+     position: absolute;
+     background-color: #ff6873;
+     width: 3px;
+     height: 9px;
+}
+
+.accordian ul li i:before {
+     transform: translate(-2px, 0) rotate(45deg);
+}
+
+.accordian ul li i:after {
+     transform: translate(2px, 0) rotate(-45deg);
+}
+
+.accordian ul li input[type=checkbox] {
+     position: absolute;
+     cursor: pointer;
+     width: 100%;
+     height: 100%;
+     z-index: 1;
+     opacity: 0;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+}
+
+.accordian ul li input[type=checkbox]:checked~.artlist {
+     margin-top: 0;
+     max-height: 0;
+     opacity: 0;
+     transform: translate(0, 50%);
+     margin: 0;
+}
+
+.accordian ul li input[type=checkbox]:checked~i:before {
+     transform: translate(2px, 0) rotate(45deg);
+}
+
+.accordian ul li input[type=checkbox]:checked~i:after {
+     transform: translate(-2px, 0) rotate(-45deg);
+}
+
+
+/* ---------------------------------- nav----------------------------------- */
+
+.footercontainer {
+     padding: 0 10%;
+     text-align: center;
+     font-family: arial;
+     font-size: 16px;
+}
+
+.text-muted {
+     color: #eef0f3;
+     ;
+     text-align: center;
+}
+
+.link {
+     color: inherit;
+     text-decoration: inherit;
+}
+
+.hover:hover {
+     color: orange;
+     cursor: pointer;
+}
+
+
+/* ---------------------------------- scroll to top----------------------------------- */
+
+.scrolltop {
+     display: none;
+     width: 100%;
+     margin: 0 auto;
+     position: fixed;
+     bottom: 20px;
+     right: 10px;
+}
+
+.scroll {
+     position: absolute;
+     right: 20px;
+     bottom: 20px;
+     background: #b2b2b2;
+     background: rgba(178, 178, 178, 0.7);
+     padding: 20px;
+     text-align: center;
+     margin: 0 0 0 0;
+     cursor: pointer;
+     transition: 0.5s;
+     -moz-transition: 0.5s;
+     -webkit-transition: 0.5s;
+     -o-transition: 0.5s;
+}
+
+.scroll:hover {
+     background: rgba(178, 178, 178, 1.0);
+     transition: 0.5s;
+     -moz-transition: 0.5s;
+     -webkit-transition: 0.5s;
+     -o-transition: 0.5s;
+}
+
+.scroll:hover .fa {
+     padding-top: -10px;
+}
+
+.scroll .fa {
+     font-size: 30px;
+     margin-top: -5px;
+     margin-left: 1px;
+     transition: 0.5s;
+     -moz-transition: 0.5s;
+     -webkit-transition: 0.5s;
+     -o-transition: 0.5s;
+}
+
+
+/* ---------------------------------- modal pop-up----------------------------------- */
+
+.modal {
+     display: none;
+     /* Hidden by default */
+     position: fixed;
+     /* Stay in place */
+     z-index: 31485;
+     /* Sit on top */
+     padding-top: 100px;
+     /* Location of the box */
+     left: 0;
+     top: 0;
+     width: 100%;
+     /* Full width */
+     height: 100%;
+     /* Full height */
+     overflow: auto;
+     /* Enable scroll if needed */
+     background-color: rgb(0, 0, 0);
+     /* Fallback color */
+     background-color: rgba(0, 0, 0, 0.4);
+     /* Black w/ opacity */
+}
+
+
+/* Modal Content */
+
+.modal-content {
+     margin: auto;
+     padding: 20px;
+     border: 1px solid #888;
+     width: 50%;
+     text-align: center;
+     font-size: 18px;
+     background: white;
+     border-radius: 9px;
+     font-family: Oswald;
+}
+
+
+/* The Close Button */
+
+.close {
+     color: #aaaaaa;
+     float: right;
+     font-size: 28px;
+     font-weight: bold;
+}
+
+.close:hover, .close:focus {
+     color: #000;
+     text-decoration: none;
+     cursor: pointer;
+}
+
+@keyframes rotate-loading {
+     0% {
+          transform: rotate(0deg);
+          -ms-transform: rotate(0deg);
+          -webkit-transform: rotate(0deg);
+          -o-transform: rotate(0deg);
+          -moz-transform: rotate(0deg);
+     }
+     100% {
+          transform: rotate(360deg);
+          -ms-transform: rotate(360deg);
+          -webkit-transform: rotate(360deg);
+          -o-transform: rotate(360deg);
+          -moz-transform: rotate(360deg);
+     }
+}
+
+@-moz-keyframes rotate-loading {
+     0% {
+          transform: rotate(0deg);
+          -ms-transform: rotate(0deg);
+          -webkit-transform: rotate(0deg);
+          -o-transform: rotate(0deg);
+          -moz-transform: rotate(0deg);
+     }
+     100% {
+          transform: rotate(360deg);
+          -ms-transform: rotate(360deg);
+          -webkit-transform: rotate(360deg);
+          -o-transform: rotate(360deg);
+          -moz-transform: rotate(360deg);
+     }
+}
+
+@-webkit-keyframes rotate-loading {
+     0% {
+          transform: rotate(0deg);
+          -ms-transform: rotate(0deg);
+          -webkit-transform: rotate(0deg);
+          -o-transform: rotate(0deg);
+          -moz-transform: rotate(0deg);
+     }
+     100% {
+          transform: rotate(360deg);
+          -ms-transform: rotate(360deg);
+          -webkit-transform: rotate(360deg);
+          -o-transform: rotate(360deg);
+          -moz-transform: rotate(360deg);
+     }
+}
+
+@-o-keyframes rotate-loading {
+     0% {
+          transform: rotate(0deg);
+          -ms-transform: rotate(0deg);
+          -webkit-transform: rotate(0deg);
+          -o-transform: rotate(0deg);
+          -moz-transform: rotate(0deg);
+     }
+     100% {
+          transform: rotate(360deg);
+          -ms-transform: rotate(360deg);
+          -webkit-transform: rotate(360deg);
+          -o-transform: rotate(360deg);
+          -moz-transform: rotate(360deg);
+     }
+}
+
+@keyframes rotate-loading {
+     0% {
+          transform: rotate(0deg);
+          -ms-transform: rotate(0deg);
+          -webkit-transform: rotate(0deg);
+          -o-transform: rotate(0deg);
+          -moz-transform: rotate(0deg);
+     }
+     100% {
+          transform: rotate(360deg);
+          -ms-transform: rotate(360deg);
+          -webkit-transform: rotate(360deg);
+          -o-transform: rotate(360deg);
+          -moz-transform: rotate(360deg);
+     }
+}
+
+@-moz-keyframes rotate-loading {
+     0% {
+          transform: rotate(0deg);
+          -ms-transform: rotate(0deg);
+          -webkit-transform: rotate(0deg);
+          -o-transform: rotate(0deg);
+          -moz-transform: rotate(0deg);
+     }
+     100% {
+          transform: rotate(360deg);
+          -ms-transform: rotate(360deg);
+          -webkit-transform: rotate(360deg);
+          -o-transform: rotate(360deg);
+          -moz-transform: rotate(360deg);
+     }
+}
+
+@-webkit-keyframes rotate-loading {
+     0% {
+          transform: rotate(0deg);
+          -ms-transform: rotate(0deg);
+          -webkit-transform: rotate(0deg);
+          -o-transform: rotate(0deg);
+          -moz-transform: rotate(0deg);
+     }
+     100% {
+          transform: rotate(360deg);
+          -ms-transform: rotate(360deg);
+          -webkit-transform: rotate(360deg);
+          -o-transform: rotate(360deg);
+          -moz-transform: rotate(360deg);
+     }
+}
+
+@-o-keyframes rotate-loading {
+     0% {
+          transform: rotate(0deg);
+          -ms-transform: rotate(0deg);
+          -webkit-transform: rotate(0deg);
+          -o-transform: rotate(0deg);
+          -moz-transform: rotate(0deg);
+     }
+     100% {
+          transform: rotate(360deg);
+          -ms-transform: rotate(360deg);
+          -webkit-transform: rotate(360deg);
+          -o-transform: rotate(360deg);
+          -moz-transform: rotate(360deg);
+     }
+}
+
+@keyframes loading-text-opacity {
+     0% {
+          opacity: 0
+     }
+     20% {
+          opacity: 0
+     }
+     50% {
+          opacity: 1
+     }
+     100% {
+          opacity: 0
+     }
+}
+
+@-moz-keyframes loading-text-opacity {
+     0% {
+          opacity: 0
+     }
+     20% {
+          opacity: 0
+     }
+     50% {
+          opacity: 1
+     }
+     100% {
+          opacity: 0
+     }
+}
+
+@-webkit-keyframes loading-text-opacity {
+     0% {
+          opacity: 0
+     }
+     20% {
+          opacity: 0
+     }
+     50% {
+          opacity: 1
+     }
+     100% {
+          opacity: 0
+     }
+}
+
+@-o-keyframes loading-text-opacity {
+     0% {
+          opacity: 0
+     }
+     20% {
+          opacity: 0
+     }
+     50% {
+          opacity: 1
+     }
+     100% {
+          opacity: 0
+     }
+}
+
+.loading-container, .loading {
+     height: 100px;
+     position: relative;
+     width: 100px;
+     border-radius: 100%;
+}
+
+.loading-container {
+     margin: 40px auto
+}
+
+.loading {
+     border: 2px solid transparent;
+     border-color: transparent #fff transparent #FFF;
+     -moz-animation: rotate-loading 1.5s linear 0s infinite normal;
+     -moz-transform-origin: 50% 50%;
+     -o-animation: rotate-loading 1.5s linear 0s infinite normal;
+     -o-transform-origin: 50% 50%;
+     -webkit-animation: rotate-loading 1.5s linear 0s infinite normal;
+     -webkit-transform-origin: 50% 50%;
+     animation: rotate-loading 1.5s linear 0s infinite normal;
+     transform-origin: 50% 50%;
+}
+
+.loading-container:hover .loading {
+     border-color: transparent #E45635 transparent #E45635;
+}
+
+.loading-container:hover .loading, .loading-container .loading {
+     -webkit-transition: all 0.5s ease-in-out;
+     -moz-transition: all 0.5s ease-in-out;
+     -ms-transition: all 0.5s ease-in-out;
+     -o-transition: all 0.5s ease-in-out;
+     transition: all 0.5s ease-in-out;
+}
+
+#loading-text {
+     -moz-animation: loading-text-opacity 2s linear 0s infinite normal;
+     -o-animation: loading-text-opacity 2s linear 0s infinite normal;
+     -webkit-animation: loading-text-opacity 2s linear 0s infinite normal;
+     animation: loading-text-opacity 2s linear 0s infinite normal;
+     color: #ffffff;
+     font-family: "Helvetica Neue, "Helvetica", ""arial";
+     font-size: 10px;
+     font-weight: bold;
+     margin-top: 45px;
+     opacity: 0;
+     position: absolute;
+     text-align: center;
+     text-transform: uppercase;
+     top: 0;
+     width: 100px;
+}
+
+
+/* --------------------------------------- Media Queries --------------------------------------- */
+
+
+/* ----------- mobile phones ----------- */
+
+@media only all and (max-width: 945px) {
+     #welcome {
+    margin-top: 3%;
+    box-sizing: border-box;
+    display: block;
+}
+     h1 {
+          color: white;
+          text-shadow: 2px 2px 4px #000000;
+          margin: 0px;
+          font-size: 15pt;
+     }
+     h2 {
+          color: #ccd6e2;
+          display: block;
+          font-size: 12pt;
+          font-weight: bold;
+          padding-top: 15%;
+     }
+     .intro_text {
+          height: 800px;
+          background-image: url(images/symptom_checker.jpg);
+          background-size: cover;
+          background-repeat: no-repeat;
+          font-size: 30px;
+     }
+     nav {
+          display: none;
+     }
+     .about-img, .anonymous-img {
+          display: none;
+     }
+     .anonymous-text {
+          margin-top: -70px;
+          display: inline-block;
+          width: 35%;
+          position: relative;
+          padding-left: 29px;
+     }
+
+     #info_submit {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-style: solid;
+    font-size: 12pt;
+    height: 56px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: #080707;
+    cursor: pointer;
+}
+
+#symptoms {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-style: solid;
+    border-color: #BDC3C7;
+    font-size: 10pt;
+    width: 96%;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+#select {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border: 2px solid #BDC3C7;
+    height: 57px;
+    width: 101%;
+    padding-left: 10px;
+    font-size: 10pt;
+    background: white;
+    -webkit-border-radius: 5px;
+}
+
+#patient_age {
+    display: flex;
+    margin-top: 10px;
+    width: 96%;
+    margin-bottom: 5px;
+    border-style: solid;
+    border-color: #BDC3C7;
+    padding-left: 10px;
+    font-size: 10pt;
+    margin-bottom: 10px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.inputfield {
+    margin-top: 4px;
+    padding-top: 30px;
+    margin-left: 35px;
+    width: 80%;
+}
+
+}
+
+
+/* ----------- ipads ----------- */
+
+@media only all
+and (min-width : 768px)
+and (max-width : 1024px)  {
+
+     h1 {
+         color: white;
+         text-shadow: 2px 2px 4px #000000;
+         margin: 0px;
+         font-size: 20pt;
+     }
+
+     h2 {
+    color: #ccd6e2;
+    display: block;
+    font-size: 20pt;
+    font-weight: bold;
+    padding-top: 25%;
+}
+
+     .intro_text {
+    height: 1000px;
+    background-image: url(images/symptom_checker.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 30px;
+}
+
+.inputfield {
+    margin-top: 80px;
+    padding-top: 30px;
+    margin-left: 68px;
+    width: 80%;
+}
+
+#select {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 19px;
+    border: 2px solid #BDC3C7;
+    height: 57px;
+    width: 516px;
+    padding-left: 10px;
+    font-size: 10pt;
+    background: white;
+    -webkit-border-radius: 5px;
+    margin-left: 23%;
+}
+
+#patient_age {
+     border-style: solid;
+border-color: #BDC3C7;
+padding-left: 10px;
+font-size: 10pt;
+margin-bottom: 23px;
+height: 50px;
+border-radius: 5px;
+width: 505px;
+margin-left: 11%;
+}
+
+
+#symptoms {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-style: solid;
+    border-color: #BDC3C7;
+    font-size: 10pt;
+    width: 500px;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    margin-left: 23%;
+}
+
+
+}
+
+
+@media only all
+and (min-width : 946px)
+and (max-width : 1291px)  {
+
+.powered{
+     display: none;
+     }
+
+.navright{
+     width: 100% !important;
+}
+
+#banner{
+     color:white;
+     padding-top: 10%;
+}
+
+
+
+ }
+
+
+ @media only all
+ and (min-width : 1025px)
+ and (max-width : 1345px)  {
+
+      #patient_age {
+    border-style: solid;
+    border-color: #BDC3C7;
+    padding-left: 10px;
+    font-size: 10pt;
+    margin-bottom: 10px;
+    height: 50px;
+    border-radius: 5px;
+    width: 295px;
+}
+
+#select {
+    color: grey;
+    border: 2px solid #BDC3C7;
+    height: 57px;
+    width: 295px;
+    padding-left: 10px;
+    font-size: 10pt;
+    background: white;
+    -webkit-border-radius: 5px;
+}
+
+#symptoms {
+    border-style: solid;
+    border-color: #BDC3C7;
+    padding-left: 10px;
+    font-size: 10pt;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 514px;
+}
+
+
+
+  }
