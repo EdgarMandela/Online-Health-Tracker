@@ -146,7 +146,8 @@ input:-webkit-autofill {
 
 
 #banner{
-     color:white;
+     color:rgb(233, 180, 180);
+     
 }
 
 /* ---- Text----- */
@@ -434,7 +435,7 @@ input[type="radio"] {
 }
 
 .text-muted {
-     color: #eef0f3;
+     color: #084aad;
      ;
      text-align: center;
 }
