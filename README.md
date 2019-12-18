@@ -1,4 +1,4 @@
-# Name: Symptom Checker
+# Name: Health Tracker
 ## Authors
 [Dennis Mwaniki](https://github.com/dennismwaniki67)
 [Edgar Mandela] (https://github.com/EdgarMandela)
