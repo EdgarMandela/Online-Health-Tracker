@@ -112,7 +112,7 @@ h2 {
 
 .intro_text {
     height: 1000px;
-    background-image: url("/images/background.jpeg");
+    background-image: url("./images/background.jpeg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     font-size: 30px;
@@ -828,7 +828,7 @@ ul li i:after {
     }
     .intro_text {
         height: 800px;
-        background-image: url("images/symptom_checker.jpg");
+        background-image: url("./images/symptom_checker.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         font-size: 30px;
@@ -930,7 +930,7 @@ ul li i:after {
 
     .intro_text {
         height: 1000px;
-        background-image: url("images/symptom_checker.jpg");
+        background-image: url("./images/symptom_checker.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         font-size: 30px;
