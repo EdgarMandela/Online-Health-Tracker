@@ -18,7 +18,7 @@ section {
 }
 
 h1 {
-     color: red;
+     color: white;
      text-shadow: 2px 2px 4px #000000;
      margin: 0px;
      font-size: 40pt;
@@ -106,7 +106,6 @@ h2 {
      position: relative;
      z-index: 2;
      background: rgba(0, 0, 0, 0.45)
-     color:#3399F;
 }
 
 .intro_text {
@@ -204,12 +203,10 @@ input:-webkit-autofill {
 }
 
 .about-img {
-     
      display: inline-block;
      width: 45%;
      float: right;
      margin-top: 40px;
-     
 }
 
 .data {
@@ -222,7 +219,6 @@ input:-webkit-autofill {
      width: 60%;
      float: left;
      padding-right: 50px;
-   
 }
 
 .anonymous-text {
@@ -855,7 +851,6 @@ input[type="radio"] {
           width: 35%;
           position: relative;
           padding-left: 29px;
-          
      }
 
      #info_submit {
