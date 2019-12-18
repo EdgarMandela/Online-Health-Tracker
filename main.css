@@ -219,6 +219,7 @@ input:-webkit-autofill {
      width: 60%;
      float: left;
      padding-right: 50px;
+   
 }
 
 .anonymous-text {
@@ -851,6 +852,7 @@ input[type="radio"] {
           width: 35%;
           position: relative;
           padding-left: 29px;
+          
      }
 
      #info_submit {
