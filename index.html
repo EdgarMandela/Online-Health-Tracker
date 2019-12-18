@@ -1,229 +1,263 @@
 <!DOCTYPE html>
 <html class="html">
 
-<head>
-     <meta charset="utf-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <meta name="description" content="Symotom Checker">
-     <title>Online Symptom Checker</title>
-     <link rel="shortcut icon" href="images/favicon.jpg">
-     <!-- link to css -->
-     <link rel="stylesheet" type="text/css" href="main.css" />
-     <link rel="stylesheet" type="text/css" href="grid.css">
-     <!-- link to Google Font Library -->
-     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Oswald">
-</head>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Symotom Checker">
+        <title>Online Symptom Checker</title>
+        <link rel="shortcut icon" href="images/favicon.jpg">
+        <!-- link to css -->
+        <link rel="stylesheet" type="text/css" href="main.css"/>
+        <link rel="stylesheet" type="text/css" href="grid.css">
+        <!-- link to Google Font Library -->
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://fonts.googleapis.com/css?family=Oswald">
+    </head>
 
-<body>
-     <nav>
-          <div class="footercontainer">
-               <div class="text-muted">
-                    <div style="float:left;width:50%;padding-top:10px;"><span class="powered"></span>
-                         <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    <body>
+        <nav>
+            <div class="footercontainer">
+                <div class="text-muted">
+                    <div style="float:left;width:50%;padding-top:10px;">
+                        <span class="powered"></span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
                     </div>
 
                     <div class="navright" style="float:right;width:50%;padding-top:10px;">
-                         <span class="hover" id="home">Home</span>
-                         <span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                         <span class="hover" id="about">About</span>
-                         <span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                         <span><a class="link hover" href="http://www.infermedica.com/" target="_blank">Infermedica API</a></span>
-                         <span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                         <span class="hover" id="disclaimer">Disclaimer</span>
-                         <span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                         <span><a class="link hover" href="mailto:otienoedgar80@gmail.com?subject=Symptom Checker App">Contact Us</a></span>
+                        <span class="hover" id="home">Home</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <span class="hover" id="about">About</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <span>
+                            <a class="link hover" href="http://www.infermedica.com/" target="_blank">Infermedica API</a>
+                        </span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <span class="hover" id="disclaimer">Disclaimer</span>
+                        <span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <span>
+                            <a
+                                class="link hover"
+                                href="mailto:otienoedgar80@gmail.com?subject=Symptom Checker App">Contact Us</a>
+                        </span>
                     </div>
-               </div>
+                </div>
 
-     </nav>
+            </nav>
 
-     <!-- header------->
-     <div class="wrapper">
+            <!-- header------->
+            <div class="wrapper">
 
-          <div id="introduction" class="intro_text">
+                <div id="introduction" class="intro_text">
 
-               <div class="">
-                    <h2 id="banner"> Feeling a little under the weather?</h2>
-               </div>
+                    <div class="">
+                        <h2 id="banner">
+                            Feeling a little under the weather?</h2>
+                    </div>
 
-               <h1 id="welcome" class="onTop">
-               Welcome to Health Tracker,<br> an online tool that recognizes symptoms and identifies conditions.<br>
-               <button class="hidden"id="enter" type="button" name="Enter"> Enter</button>
-               </h1>
+                    <h1 id="welcome" class="onTop">
+                        Welcome to Health Tracker,<br>
+                        an online tool that recognizes symptoms and identifies conditions.<br>
+                        <button class="hidden" id="enter" type="button" name="Enter">
+                            Enter</button>
+                    </h1>
 
-               <div class="inputfield">
-                    <input id="patient_age" class="required" type="text" placeholder="Age">
+                    <div class="inputfield">
+                        <input id="patient_age" class="required" type="text" placeholder="Age">
 
-                    <select id="select">
-                         <option value="">Gender</option>
-                         <option value="1">male</option>
-                         <option value="0">female</option>
-                    </select>
+                        <select id="select">
+                            <option value="">Gender</option>
+                            <option value="1">male</option>
+                            <option value="0">female</option>
+                        </select>
 
-                    <input id="symptoms" class="required" type="text" placeholder=" Specify a symptom like 'I have a sore throat' or 'My head hurts'">
+                        <input
+                            id="symptoms"
+                            class="required"
+                            type="text"
+                            placeholder=" Specify a symptom like 'I have a sore throat' or 'My head hurts'">
 
-                    <input id="info_submit" type="submit">
+                        <input id="info_submit" type="submit">
 
-               </div>
+                    </div>
 
-               <div id="loading-container" class="hidden loading-container">
-                    <div class="loading"></div>
-                    <div id="loading-text">Analyzing Symptom</div>
-               </div>
-          </div>
+                    <div id="loading-container" class="hidden loading-container">
+                        <div class="loading"></div>
+                        <div id="loading-text">Analyzing Symptom</div>
+                    </div>
+                </div>
 
-          <div id="saas"class="">
-               <section>
-     			<div id="about">
-     				<div class="row">
-     					<div class="col-12">
-     						<div class="about-text">
-     							<h2>Self diagnosis</h2>
-     							<p>You are  just a few clicks away from knowing your ailment,just enter  your symptoms now to know what you are suffreing from.</p>
+                <div id="saas" class="">
+                    <section>
+                        <div id="about">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="about-text">
+                                        <h2>Self diagnosis</h2>
+                                        <p>You are just a few clicks away from knowing your ailment,just enter your
+                                            symptoms now to know what you are suffreing from.</p>
                                         <h2>Get reliable Results</h2>
-                                        <p> Our application analyze the symptoms that you enter and generate  possible diseases that you are suffering from.Moreover,the percentages for each of the possible illness are generated to allow the user determine the most probable disease .</p>
-                                   <p>Our health tracker is integrated to  Infermedica API  which pre-diagnose, triage, and connect patients with the appropriate medical services.</p>
-                                   </div>
-     						<div class="about-img">
-     							<img src="/images/pic3.jpeg" alt="" class="data">
-     						</div>
-     					</div>
+                                        <p>
+                                            Our application analyze the symptoms that you enter and generate possible
+                                            diseases that you are suffering from.Moreover,the percentages for each of the
+                                            possible illness are generated to allow the user determine the most probable
+                                            disease .</p>
+                                        <p>Our health tracker is integrated to Infermedica API which pre-diagnose,
+                                            triage, and connect patients with the appropriate medical services.</p>
+                                    </div>
+                                    <div class="about-img">
+                                        <img src="/images/pic3.jpeg" alt="" class="data">
+                                    </div>
+                                </div>
 
-     				</div>
-     			</div>
-     		</section>
+                            </div>
+                        </div>
+                    </section>
 
-               <section>
-			<div id="anonymous">
-				<div class="row">
-					<div class="col-12">
-						<div class="anonymous-img">
-							<img src="/images/pic4.jpeg" alt="dreams-example" class="data">
-						</div>
-						<div class="anonymous-text">
-							<h2>Stay Anonymous</h2>
-							<p>The cool thing about Health Checker is that no one needs to know who you are! Your privacy is assured. No log-in required.</p>
-                                   <h2>And it's completely FREE.</h2>
-                              </div>
-					</div>
-				</div>
-			</div>
-		</section>
+                    <section>
+                        <div id="anonymous">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="anonymous-img">
+                                        <img src="/images/pic4.jpeg" alt="dreams-example" class="data">
+                                    </div>
+                                    <div class="anonymous-text">
+                                        <h2>Stay Anonymous</h2>
+                                        <p>The cool thing about Health Checker is that no one needs to know who you are!
+                                            Your privacy is assured. No log-in required.</p>
+                                        <h2>And it's completely FREE.</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
 
-          </div>
+                </div>
 
-          <!-- Main Page Content ------->
-          <div id="container" class="container hidden page-content">
-               <div class="accordian">
-                    <ul>
-                         <!-- ACCORDIAN #1 ------->
-                         <li><input id="firstAccordian" type="checkbox"><i></i>
-                              <h3>Patient Information and Symptom Analysis</h3>
-                              <div class="artlist">
-                                   <div class="artlist_content">
+                <!-- Main Page Content ------->
+                <div id="container" class="container hidden page-content">
+                    <div class="accordian">
+                        <ul>
+                            <!-- ACCORDIAN #1 ------->
+                            <li><input id="firstAccordian" type="checkbox">
+                                <i></i>
+                                <h3>Patient Information and Symptom Analysis</h3>
+                                <div class="artlist">
+                                    <div class="artlist_content">
                                         <form>
-                                             <fieldset>
-                                                  <legend>Primary Analysis</legend>
-                                                  <p style="font-weight: bold;">Patient symptom: "<span style="font-weight: bold;" id="patientSymptom"></span>"</p>
-                                             </fieldset>
+                                            <fieldset>
+                                                <legend>Primary Analysis</legend>
+                                                <p style="font-weight: bold;">Patient symptom: "<span style="font-weight: bold;" id="patientSymptom"></span>"</p>
+                                            </fieldset>
 
                                         </form>
-                                   </div>
-                              </div>
-                         </li>
+                                    </div>
+                                </div>
+                            </li>
 
-                         <!-- ACCORDIAN #2 ------->
-                         <li><input id="secondAccordian" type="checkbox" checked=""><i></i>
-                              <h3>Diagnosis Questions</h3>
-                              <div class="artlist">
-                                   <div id="section_explanation" class="artlist_content" style="font-size: 12pt;">
+                            <!-- ACCORDIAN #2 ------->
+                            <li><input id="secondAccordian" type="checkbox" checked="">
+                                <i></i>
+                                <h3>Diagnosis Questions</h3>
+                                <div class="artlist">
+                                    <div id="section_explanation" class="artlist_content" style="font-size: 12pt;">
                                         Diagnosis is imporved as more questions are answered.
-                                   </div>
-                              </div>
-                              <div id="question_container" class="artlist hidden">
-                                   <!-- Question here -------->
-                                   <div class="question" class="artlist_content">
+                                    </div>
+                                </div>
+                                <div id="question_container" class="artlist hidden">
+                                    <!-- Question here -------->
+                                    <div class="artlist_content">
                                         <p id="renderedQuestion"></p>
                                         <!-- Answers here -------->
                                         <div id="choice_id">
-                                             <input type="radio" name="mcq" value="yes" style="verticle-align:baseline;"> <label class="select" id="yes"></label>
-                                             <input type="radio" name="mcq" value="no" style="verticle-align:baseline;"> <label class="select" id="no"></label>
-                                             <input type="radio" name="mcq" value="unknown" style="verticle-align:baseline;"> <label class="select" id="unknown"></label>
+                                            <input type="radio" name="mcq" value="yes" style="verticle-align:baseline;">
+                                            <label class="select" id="yes"></label>
+                                            <input type="radio" name="mcq" value="no" style="verticle-align:baseline;">
+                                            <label class="select" id="no"></label>
+                                            <input type="radio" name="mcq" value="unknown" style="verticle-align:baseline;">
+                                            <label class="select" id="unknown"></label>
                                         </div>
-                                   </div>
-                                   <div class="artlist_content">
+                                    </div>
+                                    <div class="artlist_content">
                                         <button id="submit" type="button" name="next">Submit Answer</button>
-                                   </div>
-                              </div>
+                                    </div>
+                                </div>
 
-                         </li>
+                            </li>
 
-                         <!-- ACCORDIAN #3 ------->
-                         <li><input id="thirdAccordian" type="checkbox" checked=""><i></i>
-                              <h3>Conditions</h3>
-                              <div class="artlist">
-                                   <div id="section_explanation" class="artlist_content" style="font-size: 12pt;">
-                                        <p> Based on the question(s) answered, you suffer from:</p>
-                                   </div>
-                              </div>
-                              <div class="artlist">
-                                   <div class="artlist_content" id="condition_list">
-                                   </div>
-                                   <br>
-                                   <br>
-                                   <button id="moreQuestions" type="button" name="more" class="hidden">Answer More Questions</button>
-                                   <button id="checkAnother" type="button" name="new" class="hidden"> New Symptom Analysis</button>
-                              </div>
-                         </li>
-                    </ul>
-                    <!-- End ul -->
+                            <!-- ACCORDIAN #3 ------->
+                            <li><input id="thirdAccordian" type="checkbox" checked="">
+                                <i></i>
+                                <h3>Conditions</h3>
+                                <div class="artlist">
+                                    <div id="section_explanation" class="artlist_content" style="font-size: 12pt;">
+                                        <p>
+                                            Based on the question(s) answered, you suffer from:</p>
+                                    </div>
+                                </div>
+                                <div class="artlist">
+                                    <div class="artlist_content" id="condition_list"></div>
+                                    <br>
+                                    <br>
+                                    <button id="moreQuestions" type="button" name="more" class="hidden">Answer More Questions</button>
+                                    <button id="checkAnother" type="button" name="new" class="hidden">
+                                        New Symptom Analysis</button>
+                                </div>
+                            </li>
+                        </ul>
+                        <!-- End ul -->
 
-               </div>
-               <!-- End Accordian -->
-          </div>
-          <!-- End Container -->
-
-
-     </div>
-     <!-- Scroll Top -->
-     <div class='scrolltop'>
-          <div class='scroll icon'><i class="fa fa-4x fa-angle-up"></i> ^ </div>
-     </div>
-     <!-- Main Page Footer
-     <footer id="footer" class="footer">
-          <div class="footercontainer">
-               <div class="text-muted">
-                    <div style="float:left;width:50%"><span>Powered By Infermedica: Artificial Intelligence for Healthcare Companies</span>
-                         <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
                     </div>
+                    <!-- End Accordian -->
+                </div>
+                <!-- End Container -->
 
-                    <div style="float:right;width:50%">
-                         <span class="hover" id="home">Home</span>
-                         <span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                         <span class="hover" id="about">About</span>
-                         <span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                         <span><a class="link hover" href="http://www.infermedica.com/" target="_blank">Infermedica API</a></span>
-                         <span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                         <span><a class="link hover" href="mailto:charlottefrates@gmail.com?subject=Symptom Checker App">Contact Us</a></span>
-                    </div>
-               </div>
-          </div>
-     </footer> ------->
-     <!-- The Modal Pop-up -->
-     <div id="myModal" class="modal">
-          <!-- Modal content -->
-          <div class="modal-content">
-               <span class="close">&times;</span>
-               <p>
-                    <span class="bold">Symptom Checker is: </span> <br><br> 1) Intended for informational and educational purposes only.<br><br> 2) It is not a substitute for professional medical advice, diagnosis or treatment.<br><br> NEVER IGNORE PROFESSIONAL
-                    MEDICAL ADVICE IN SEEKING TREATMENT.<br><br> If you think you may have a medical emergency,<br><span class="color">immediately call your doctor or dial 911.</span><br>
-               </p>
-          </div>
-     </div>
-     <!-- link to jquery -->
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-     <!-- link to your app.js -->
-     <script src="app.js" type="text/javascript"></script>
-</body>
+            </div>
+            <!-- Scroll Top -->
+            <div class='scrolltop'>
+                <div class='scroll icon'>
+                    <i class="fa fa-4x fa-angle-up"></i>
+                    ^
+                </div>
+            </div>
+            <!-- Main Page Footer <footer id="footer" class="footer"> <div
+            class="footercontainer"> <div class="text-muted"> <div
+            style="float:left;width:50%"><span>Powered By Infermedica: Artificial
+            Intelligence for Healthcare Companies</span>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> </div> <div
+            style="float:right;width:50%"> <span class="hover" id="home">Home</span>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span> <span
+            class="hover" id="about">About</span>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span> <span><a
+            class="link hover" href="http://www.infermedica.com/"
+            target="_blank">Infermedica API</a></span>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span> <span><a
+            class="link hover" href="mailto:charlottefrates@gmail.com?subject=Symptom
+            Checker App">Contact Us</a></span> </div> </div> </div> </footer> ------->
+            <!-- The Modal Pop-up -->
+            <div id="myModal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>
+                        <span class="bold">Symptom Checker is:
+                        </span>
+                        <br><br>
+                        1) Intended for informational and educational purposes only.<br><br>
+                        2) It is not a substitute for professional medical advice, diagnosis or
+                        treatment.<br><br>
+                        NEVER IGNORE PROFESSIONAL MEDICAL ADVICE IN SEEKING TREATMENT.<br><br>
+                        If you think you may have a medical emergency,<br>
+                        <span class="color">immediately call your doctor or dial 911.</span><br>
+                    </p>
+                </div>
+            </div>
+            <!-- link to jquery -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+            <!-- link to your app.js -->
+            <script src="app.js" type="text/javascript"></script>
+        </body>
 
-</html>
+    </html>
