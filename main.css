@@ -18,7 +18,7 @@ section {
 }
 
 h1 {
-     color: white;
+     color: red;
      text-shadow: 2px 2px 4px #000000;
      margin: 0px;
      font-size: 40pt;
@@ -204,10 +204,12 @@ input:-webkit-autofill {
 }
 
 .about-img {
+     
      display: inline-block;
      width: 45%;
      float: right;
      margin-top: 40px;
+     
 }
 
 .data {
