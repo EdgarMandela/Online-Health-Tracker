@@ -1,11 +1,24 @@
-# Name: Symptom Checker
+# Name: Health Tracker
+## Authors
+[Dennis Mwaniki](https://github.com/dennismwaniki67)
+[Edgar Mandela] (https://github.com/EdgarMandela)
+[Celine mmbone kerrine] (https://github.com/Celinemmbonekerrine4)
+[Atieno Phanice] (https://github.com/atienophanice)
+## Project setup instructions
+To start using this project use the following commands:
+- `git clone https://github.com/EdgarMandela/Online-Health-Tracker.git`
+- `cd Online-Health-Tracker`
+- `atom .`
+- `code .` [//]: # (this is if Visual Studio Code is your preferred text editor)
 
-
-## Technologies Used: HTML/CSS/JavaScript/jQuery
+## Technologies Used: 
+HTML/CSS/JavaScript/jQuery
 
 ## Purpose:
 
 Users can add information about health issues and get possible health conditions
+## DESCRIPTION 
+A website that gives out the possible ailments, problems or whataver the case is, advice on what to do in oder to prevent or eliminate. Also, medicines to cure or even the specialised clinics and the doctors to visit, as per your data feed
 
 ## Motivation:
 
@@ -24,3 +37,4 @@ As a new parent, I am often bombarded with some sort of health issue or another.
 
 The data used for this app is powered by Infermedica: Artificial Intelligence for Healthcare Companies.
 More information about this API can be found [Here] (http://www.infermedica.com/).
+
