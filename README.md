@@ -18,7 +18,7 @@ HTML/CSS/JavaScript/jQuery
 
 Users can add information about health issues and get possible health conditions
 ## DESCRIPTION 
-A website that gives out the possible ailments, problems or whataver the case is, advice on what to do in oder to prevent or eliminate. Also, medicines to cure or even the specialised clinics and the doctors to visit, as per your data feed
+A website that gives out the possible ailments, problems or whataver the case is, advice on what to do in oder to prevent or eliminate. Also, medicines to cure or even the specialised clinics and the doctors to visit, as per your data feed.
 
 ## Motivation:
 
