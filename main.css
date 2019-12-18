@@ -196,13 +196,13 @@ input:-webkit-autofill {
     margin-left: 25px;
     margin-right: 25px;
     display: inline-block;
-    width: 45%;
+    width: 35%;
     position: relative;
 }
 
 .about-img {
     display: inline-block;
-    width: 45%;
+    width: 42%;
     float: right;
     margin-top: 40px;
 }
