@@ -33,8 +33,9 @@ As a new parent, I am often bombarded with some sort of health issue or another.
 5) After clicking “Start Diagnosis Questions” users get prompted questions to better diagnose symptoms
 6) After a series on questions and answers users get condition diagnosis
 
-## API Refrence
+## API Reference
 
 The data used for this app is powered by Infermedica: Artificial Intelligence for Healthcare Companies.
 More information about this API can be found [Here] (http://www.infermedica.com/).
-
+## live
+https://edgarmandela.github.io/Online-Health-Tracker/
