@@ -196,20 +196,20 @@ input:-webkit-autofill {
     margin-left: 25px;
     margin-right: 25px;
     display: inline-block;
-    width: 45%;
+    width: 35%;
     position: relative;
 }
 
 .about-img {
     display: inline-block;
-    width: 45%;
+    width: 42%;
     float: right;
     margin-top: 40px;
 }
 
 .data {
-    width: 450px;
-    height: 450px;
+    width: 423px;
+    height: 423px;
 }
 
 .anonymous-img {
